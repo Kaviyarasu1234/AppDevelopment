@@ -1,0 +1,32 @@
+.DashboardBorder *{
+     padding: 0;
+     margin: 0;
+}
+.DashboardBorder{
+     display: grid;
+     height: 100vh;
+     grid-template-columns: 1fr 6fr;
+     grid-template-rows: 0.4fr 4fr 0.6fr;
+     grid-template-areas:
+          "sidebar navbar"
+          "sidebar content"
+          "sidebar footer"
+}
+
+.DashboardNavBar{
+     background-color: aliceblue;
+     grid-area: navbar;
+}
+.DashboardSideBar{
+     grid-area: sidebar;
+}
+.DashboardContent{
+     background-image: url('https://img.freepik.com/free-photo/top-view-delicious-mayyonaise-salad-with-greens-vegetables-dark-space_140725-75694.jpg?size=626&ext=jpg&ga=GA1.1.1051394340.1695359637&semt=ais');
+     background-repeat: no-repeat;
+    background-size: cover;
+     grid-area: content;
+}
+.DashboardFooter{
+     background-color: rgb(241, 155, 26);
+     grid-area: footer;
+}
