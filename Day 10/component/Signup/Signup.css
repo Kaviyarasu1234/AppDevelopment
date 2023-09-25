@@ -1,0 +1,122 @@
+:root{
+     --x: min(100vh,100vw);
+ }
+ 
+ .SignupBorder *{
+     padding: 0;
+     margin: 0;
+     
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ 
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .SignupBorder button,input {
+     margin: 0;
+     padding: 0;
+     border-radius:10px;
+     background: none;
+     color: inherit;
+     line-height: normal;
+     text-align: inherit;
+ }
+ .SignupBorder{
+     height: 100vh;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-size: cover;
+ background-repeat: no-repeat;
+     position: relative;
+ }
+ 
+ 
+ 
+ .SignupBox{
+     width: 400px;
+     height: 90vh;
+     position: absolute;
+     
+ }
+ .SignupBoxTop{
+     height: 85%;
+     width: 100%;
+     font-weight: bolder;
+     font-size: 25px;
+     border: 1px solid rgba(0, 0, 0, 0.582);
+     background-image: linear-gradient(
+     to right, 
+     rgba(255,255,255,.2), 
+     rgba(255,255,255,1), 
+     rgba(255,255,255,.2));
+     border-radius: 2%;
+ }
+ .SignupBoxBottom{
+     height: 11%;
+     width: 100%;
+     margin: 2% 0;
+     border: 1px solid rgba(86, 84, 84, 0.582);
+     background-color: white;
+ }
+ .SignupBoxBottom span{
+     color: rgb(0, 84, 253);
+     cursor: pointer;
+ }
+ .SignupBoxTitle{
+     width: 90%;
+     height: 30%;
+ }
+ .SignupBoxTitle p{
+     font-size: 14px;
+     font-family: 'Roboto Flex', sans-serif;
+ 
+ }
+ .SignupBoxTitle h2{
+     color: blueviolet;
+ }
+ .SignupForm{
+     width: 100%;
+     height: 70%;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .SignupForm input{
+     width: 90%;
+     height: 12%;
+     margin: 3% 5%;
+     border: 1px solid grey;
+     border-radius: 19px;
+     text-align: left;
+     text-indent: 10px;
+     font-size: 17px;
+     padding: 5px;
+   color: #25291b;
+   background-color: rgba(255,255,255, .5);
+ }
+ .SignupForm button{
+     width: 90%;
+     height: 12%;
+     margin: 5%;
+     border-radius: 2px;
+     border-radius: 5px;
+     text-align: left;
+     text-indent: 10px;
+     font-size: 18px;
+     background-color: rgb(0, 60, 255);
+     color: white;
+     cursor: pointer;
+ }
+ .SignupForm input:focus{
+     outline: none;
+ }
+ .SignupForm button:hover{
+     background-color:red;
+ }
+ p{
+     padding: 100%;
+     
+ }
